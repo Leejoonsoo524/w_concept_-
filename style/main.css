@@ -23,8 +23,6 @@ body {}
 #content_1 .content_1_main .title .title_right_bottom .product .price em {font-style: normal;color: rgba(250, 133, 0, 0.979);margin-right: 6px;}
 #content_1 .content_1_main .title .title_right_bottom .product .price span {font-weight: bold;}
 
-
-
 #content_2 {max-width: 1680px;margin: 0 auto;padding: 40px 5px;}
 #content_2 .title_more {display: flex; justify-content: space-between;margin-bottom: 15px;}
 #content_2 .title_more h1{font-size: 20px; font-weight: 500;}
@@ -40,23 +38,6 @@ body {}
 #content_2 .product .price em {font-style: normal;color: rgba(250, 133, 0, 0.979);margin-right: 6px;}
 #content_2 .product .price span {font-weight: bold;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------------------- */
-/* 📱 모바일 (320px ~ 767px) */
-/* ------------------------------- */
 @media (max-width: 767px) {
     #content_1 {padding: 20px;}
     #content_1 .content_1_main h1 {font-size: 18px; font-weight: 500; text-align: left;margin-bottom: 20px;}
