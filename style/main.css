@@ -1,0 +1,77 @@
+body {}
+#content_1 {max-width: 1680px;margin: 0 auto;padding: 40px 5px;}
+#content_1 .content_1_main {display: flex; flex-flow: column wrap;}
+#content_1 .content_1_main h1 {font-size: 20px; font-weight: 500; text-align: left;margin-bottom: 20px;}
+#content_1 .content_1_main .title {display: flex;flex-direction: row;  gap: 40px;}
+#content_1 .content_1_main .title .title_left {width: 100%;}
+#content_1 .content_1_main .title .title_left img {width: 100%;}
+
+#content_1 .content_1_main .title .title_right {display: flex;flex-flow: column wrap;justify-content: space-between;}
+#content_1 .content_1_main .title .title_right_top{display: flex; flex-flow: column wrap; gap: 10px;}
+#content_1 .content_1_main .title .title_right_top p { font-size: 26px; font-weight: 700;}
+#content_1 .content_1_main .title .title_right_top span {color: #333;}
+#content_1 .content_1_main .title .title_right_bottom .product {display: flex;flex-flow: row nowrap; gap: 5px;}
+#content_1 .content_1_main .title .title_right_bottom .product li {display: flex;flex-flow: column;}
+
+#content_1 .content_1_main .title .title_right_bottom .product li img {width: 100%;}
+#content_1 .content_1_main .title .title_right_bottom .product .product_text {display: flex; flex-flow: column nowrap; gap: 10px;margin-top: 10px;}
+#content_1 .content_1_main .title .title_right_bottom .product .brand {font-weight: bold;font-size: 14px;}
+
+#content_1 .content_1_main .title .title_right_bottom .product .product_name {font-size: 14px;color: #333;}
+#content_1 .content_1_main .title .title_right_bottom .product .price em {font-style: normal;color: rgba(250, 133, 0, 0.979);margin-right: 6px;}
+#content_1 .content_1_main .title .title_right_bottom .product .price span {font-weight: bold;}
+
+
+
+#content_2 {max-width: 1680px;margin: 0 auto;padding: 40px 5px;}
+#content_2 .title_more {display: flex; justify-content: space-between;margin-bottom: 15px;}
+#content_2 .title_more h1{font-size: 20px; font-weight: 500;}
+#content_2 .title_more p{font-size: 14px; color: #aaa;}
+#content_2 .product {display: flex;flex-flow: row nowrap; gap: 10px;}
+#content_2 .product li {display: flex;flex-flow: column; min-width: 0;}
+#content_2 .product li img {width: 100%;}
+#content_2 .product .product_text {display: flex; flex-flow: column nowrap; gap: 10px;margin-top: 10px;min-width: 0;}
+#content_2 .product .brand {font-weight: bold;font-size: 14px;}
+#content_2 .product .product_name {font-size: 14px;color: #333; display: block;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;min-width: 0;}
+#content_2 .product .price em {font-style: normal;color: rgba(250, 133, 0, 0.979);margin-right: 6px;}
+#content_2 .product .price span {font-weight: bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------- */
+/* 📱 모바일 (320px ~ 767px) */
+/* ------------------------------- */
+@media (max-width: 767px) {
+    #content_1 {padding: 20px;}
+    #content_1 .content_1_main h1 {font-size: 18px; font-weight: 500; text-align: left;margin-bottom: 20px;}
+    #content_1 .content_1_main .title {flex-flow: column;gap: 16px;}
+    #content_1 .content_1_main .title .title_left img {width: 100%;}    
+    #content_1 .content_1_main .title .title_right {display: none;}
+
+    #content_2 {padding: 20px;}
+    #content_2 .title_more {display: flex; justify-content: space-between;margin-bottom: 15px;}
+    #content_2 .title_more h1{font-size: 18px; font-weight: 500;}
+    #content_2 .title_more p{font-size: 0; color: #aaa;}
+    #content_2 .product {display: flex; flex-flow: row nowrap; gap: 5px; overflow: hidden; width: calc((100% / 3) * 3);}
+    #content_2 .product li {display: flex;flex-flow: column; /*flex: 0 0 calc(33.333% - 4px);*/}    
+    #content_2 .product li img {width: 100%;}
+    #content_2 .product .product_text {display: flex; flex-flow: column nowrap; gap: 10px;margin-top: 10px;}
+    #content_2 .product .brand {font-weight: bold;font-size: 14px;}
+    #content_2 .product .product_name {font-size: 14px;color: #333;}
+    #content_2 .product .price em {font-style: normal;color: rgba(250, 133, 0, 0.979);margin-right: 6px;}
+    #content_2 .product .price span {font-weight: bold;}
+}
+
+
